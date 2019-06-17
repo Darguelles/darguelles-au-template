@@ -1,0 +1,71 @@
+<template>
+  <require from="./home/home"></require>
+  <require from="./certifications/certifications"></require>
+  <require from="./blog/blog"></require>
+  <require from="./professional/professional"></require>
+  <require from="materialize-css/dist/css/materialize.css"></require>
+  <require from="./styles/styles.scss"></require>
+  <require from="./styles/footer.scss"></require>
+
+  <md-colors primary-color="#607d8b" secondary-color="#26a69a" error-color="#f44336"
+             success-color="#4caf50" link-color="#039be5"></md-colors>
+  <md-navbar>
+
+    <div class="container-centered ">
+      <a href="#/" class="brand-logo">
+        <span>Diego</span>
+      </a>
+      <ul class="hide-on-med-and-down right">
+        <li md-waves><a>About</a></li>
+        <li md-waves><a>Installation</a></li>
+        <li md-waves><a>Project Status</a></li>
+      </ul>
+    </div>
+
+  </md-navbar>
+
+  <div class="container-centered ">
+
+    <home></home>
+    <professional></professional>
+    <blog></blog>
+    <certifications></certifications>
+
+  </div>
+
+  <div>
+    <footer md-footer style="padding-left: 0;">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Let's talk!</h5>
+            <p class="grey-text text-lighten-4">Feel free to follow me on my social media accounts.</p>
+            <p class="grey-text text-lighten-4">Sao Paulo, Brazil</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Find me on</h5>
+            <a class="grey-text text-lighten-3 icon-footer" href="#!">
+              <img src="./../static/icons/linkedin-box.png">
+            </a>
+            <a class="grey-text text-lighten-3 icon-footer" href="#!">
+              <img src="./../static/icons/github-box.png">
+            </a>
+            <a class="grey-text text-lighten-3 icon-footer" href="#!">
+              <img src="./../static/icons/medium.png">
+            </a>
+            <a class="grey-text text-lighten-3 icon-footer" href="#!">
+              <img src="./../static/icons/instagram.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+</template>
