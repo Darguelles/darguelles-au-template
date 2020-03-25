@@ -1,1 +1,1 @@
-web: npm build --env prod
+web: npm build
