@@ -11,3 +11,13 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.skills-image {
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 400px)  {
+  .skills-image {
+    max-width: 250px;
+  }
+}

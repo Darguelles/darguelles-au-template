@@ -4,28 +4,77 @@
     <div class="col s12 m12">
       <md-card title="Publications"
                class="col s12">
-        <p>
-          Along with my work, i like to share my experience with other colleages and get feedback from them, so i started
-          participating as an active member of Medium community, i think that's the best place were people can find
-          articles based more on real life experiences instead just the tipical academic scope.
-        </p>
-        <br/>
 
-
-        <md-card horizontal="${horizontal}"
-                 image="${bookImage}">
-          My first book released along with my friend Erikson Murrugarra. This is our first commercial book based on an
-          alternative MEAN stack (MongoDB, Express, Aurelia and Node). Find more info <a href="https://www.amazon.com.br/Hands-Full-Stack-Development-Aurelia-ebook/dp/B07BDJL7KQ">here</a>.
-        </md-card>
-
-        <md-card horizontal="${horizontal}"
-                 image="${mediumImage}">
-          Based on my own experience, i enjoy writing articles about tech topics and personal development. Any feedback
-          is welcome, stay tuned!
-
-          Find my medium profile <a href="https://medium.com/@darguelles.rojas91">here</a>.
-        </md-card>
-
+        <md-slider>
+          <li>
+            <img src="${bookImage}" style="filter: blur(50px);"/>
+            <div class="caption left-align">
+              <div class="row">
+                <div class="col l4">
+                  <img src="${bookImage}"/>
+                </div>
+                <div class="col l8">
+                  <h4>Hands On: Full-stack development with Aurelia!</h4>
+                  <h5 class="light grey-text text-lighten-3">My first book released along with my friend
+                    Erikson Murrugarra. This is our first commercial book based on an
+                    alternative MEAN stack (MongoDB, Express, Aurelia and Node). Find more info
+                    <a href="https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL.jpg">here</a>.</h5>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="${coronavirusArticleImage}" style="filter: blur(50px);"/>
+            <div class="caption left-align">
+              <div class="row">
+                <div class="col l4">
+                  <img src="${mediumImage}"/>
+                </div>
+                <div class="col l8">
+                  <h4 style="color: dimgray">Coronavirus: The Hammer and the Dance</h4>
+                  <h5 style="color: dimgray">
+                    Spanish translation from Tomas Pueyo's article about current infection statistics and how we could fight
+                    against this invisible enemy.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="${feignArticle}" style="filter: blur(50px);"/>
+            <div class="caption left-align">
+              <div class="row">
+                <div class="col l4">
+                  <img src="${mediumImage}"/>
+                </div>
+                <div class="col l8">
+                  <h4>Feign: Resilience and scalability for your rest clients</h4>
+                  <h5>
+                    Step by step guide about how to implement synchronous API calls using fallback/retry patterns to
+                    improve resilience and fast failure recovery.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="${onionArticle}" style="filter: blur(50px);"/>
+            <div class="caption left-align">
+              <div class="row">
+                <div class="col l4">
+                  <img src="${mediumImage}"/>
+                </div>
+                <div class="col l8">
+                  <h4>Rethinking microservices: Process, rules, and scalability</h4>
+                  <h5>
+                    Explore an alternative way to develop micro-services, decoupling core services from application
+                    layer, improving scalability and resilience.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </li>
+        </md-slider>
 
         <!--<p>
           But not all in my life is work. I like do distribute my time with m,y second passion too: Music, more specific,
