@@ -17,8 +17,6 @@
     "aurelia-validation": "^1.4.0",
     "materialize-css": "^1.0.0-rc.2",
     "tslib": "^1.10.0"
-  },
-  "devDependencies": {
     "aurelia-testing": "^1.0.0",
     "aurelia-tools": "^2.0.0",
     "gulp": "^4.0.0",
@@ -58,6 +56,9 @@
     "istanbul-instrumenter-loader": "^3.0.1",
     "opn": "^5.4.0",
     "webpack-bundle-analyzer": "^3.0.4"
+  },
+  "devDependencies": {
+
   },
   "scripts": {
     "build": "au build",
