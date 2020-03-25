@@ -16,7 +16,7 @@
     "aurelia-typed-observable-plugin": "^0.4.2",
     "aurelia-validation": "^1.4.0",
     "materialize-css": "^1.0.0-rc.2",
-    "tslib": "^1.10.0"
+    "tslib": "^1.10.0",
     "aurelia-testing": "^1.0.0",
     "aurelia-tools": "^2.0.0",
     "gulp": "^4.0.0",
