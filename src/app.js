@@ -14,6 +14,8 @@ export class App {
       return './blog/blog';
     } else if (cardType === 'textWithSimpleImage') {
       return './hobbies/hobbies';
+    } else if (cardType === 'onlyImages') {
+      return './collaboration/collaboration';
     }
   }
 }

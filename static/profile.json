@@ -141,6 +141,21 @@
           "Big UFC fan."
         ]
       }
+    },
+    {
+      "id": "collaborations",
+      "name": "Collaborations",
+      "cardType": "onlyImages",
+      "showNav": true,
+      "metadata": {
+        "cardTitle": "Collaborations",
+        "images": [
+          "./images/companies/verizon-logo.jpg",
+          "./images/companies/quintoandar-logo.jpg",
+          "./images/companies/avantica-logo.png",
+          "./images/companies/alura-logo.png"
+        ]
+      }
     }
   ]
 }
