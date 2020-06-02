@@ -6,6 +6,10 @@ export class Home {
     this.spanCaption = 'Cibersecurity';
   }
 
+  activate(model) {
+    this.data = model;
+  }
+
   attached() {
     this.detectWidthChange();
   }
