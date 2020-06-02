@@ -62,6 +62,69 @@
           }
         ]
       }
+    },
+    {
+      "id": "publications",
+      "name": "Publications",
+      "cardType": "sliderBlog",
+      "showNav": true,
+      "metadata": {
+        "cardTitle": "Publications",
+        "sliderDuration": 400,
+        "sliderInterval": 4000,
+        "sliderElements": [
+          {
+            "iconImage": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL._SX260_.jpg",
+            "backgroundImage": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL._SX260_.jpg",
+            "textTitle": "Hands On: Full-stack development with Aurelia!",
+            "textDescription": "My first book released along with my friend\n                    Erikson Murrugarra. This is our first commercial book based on an\n                    alternative MEAN stack (MongoDB, Express, Aurelia and Node). Find more info",
+            "buttonText": "Get yours here!",
+            "buttonUrl": "https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL.jpg"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/1400/1*KVp1bQM_wScAUvgGxQdf3w.png",
+            "textTitle": "Agnostic serverless functions using Kubeless",
+            "textDescription": "How we stop depending on a particular cloud provider to write and deploy our serverless functions.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/agnostic-serverless-functions-using-kubeless-3e0198c123eb/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/2000/1*yeie9sVoh-oJ8xrOlbTGxQ.png",
+            "textTitle": "How tracing has become our key factor for fast error detection",
+            "textDescription": "Jaeger implementation for our distributed services. One annotation will trace everything you need.",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/quintoandar-tech-blog/how-tracing-has-become-our-key-factor-for-fast-error-detection-960485178306/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/6408/1*F44zSvRWyD39mkOarDQjBg.png",
+            "textTitle": "Coronavirus: The Hammer and the Dance",
+            "textDescription": "Spanish translation from Tomas Pueyo's article about current infection statistics and how we could fight\n                    against this invisible enemy.",
+            "textColor": "dimgray",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/coronavirus-the-hammer-and-the-dance-8ac077271a01/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/8064/1*HojYbuC_91aMCJO41MTtHw.jpeg",
+            "textTitle": "Feign: Resilience and scalability for your rest clients",
+            "textDescription": "Step by step guide about how to implement synchronous API calls using fallback/retry patterns to\n                    improve resilience and fast failure recovery.",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/@darguelles.rojas91/amazing-rest-clients-with-mr-feign-6195d5499a38/"
+          },
+          {
+            "iconImage": "./icons/medium-icon.png",
+            "backgroundImage": "https://miro.medium.com/max/7206/1*M1RdXI4KGq7uFTbNHbGCmQ.jpeg",
+            "textTitle": "Rethinking microservices: Process, rules, and scalability",
+            "textDescription": "Explore an alternative way to develop micro-services, decoupling core services from application\n                    layer, improving scalability and resilience.",
+            "buttonText": "Read the Article",
+            "buttonUrl": "https://medium.com/quintoandar-tech-blog/rethinking-microservices-process-rules-and-scalability-fd959b4e2ea/"
+          }
+        ]
+      }
     }
   ]
 }

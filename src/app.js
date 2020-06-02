@@ -10,6 +10,8 @@ export class App {
       return './home/home';
     } else if (cardType === 'carouselAndText') {
       return './certifications/certifications';
+    } else if (cardType === 'sliderBlog') {
+      return './blog/blog';
     }
   }
 }

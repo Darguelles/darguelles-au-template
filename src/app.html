@@ -20,11 +20,6 @@
         <li repeat.for="section of profile.sections" md-waves>
           <a href="#${section.id}" >${section.showNav ? section.name : ''}</a>
         </li>
-        <!--
-        <li md-waves><a href="#publications">Publications</a></li>
-        <li md-waves><a href="#hobbies">Hobbies</a></li>
-        <li md-waves><a href="#collaborations">Collaborations</a></li>
-        -->
       </ul>
     </div>
 
@@ -34,11 +29,6 @@
     <div repeat.for="section of profile.sections">
       <compose view-model="${selectViewModel(section.cardType)}" id="${section.id}" model.bind="section.metadata" ></compose>
     </div>
-    <!--
-    <blog id="publications"></blog>
-    <hobbies id="hobbies"></hobbies>
-    <collaboration id="collaborations"></collaboration>
-    -->
   </div>
 
   <div>

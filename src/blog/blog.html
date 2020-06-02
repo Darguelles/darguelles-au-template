@@ -2,136 +2,30 @@
 
   <div class="row">
     <div class="col s12 m12">
-      <md-card title="Publications"
-               class="col s12">
+      <md-card title="${data.cardTitle}" class="col s12">
 
-        <md-slider interval="4000" duration="400">
-          <li>
-            <img src="${bookImage}" style="filter: blur(50px);"/>
+        <md-slider interval="${data.sliderInterval}" duration="${data.sliderDuration}">
+          <li repeat.for="post of data.sliderElements">
+            <img src="${post.backgroundImage}" style="filter: blur(50px);"/>
             <div class="caption left-align">
               <div class="row">
                 <div class="col l4">
-                  <img src="${bookImage}"/>
+                  <img src="${post.iconImage}"/>
                 </div>
                 <div class="col l8">
-                  <h4 class="article-title" >Hands On: Full-stack development with Aurelia!</h4>
-                  <h5 class="article-description light grey-text text-lighten-3">My first book released along with my friend
-                    Erikson Murrugarra. This is our first commercial book based on an
-                    alternative MEAN stack (MongoDB, Express, Aurelia and Node). Find more info
-                    <a href="https://images-na.ssl-images-amazon.com/images/I/51YmDHWgMvL.jpg">here</a>.</h5>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <img src="${kubelessPostImage}" style="filter: blur(50px);"/>
-            <div class="caption left-align">
-              <div class="row">
-                <div class="col l4">
-                  <img src="./../../static/icons/medium-icon.png"/>
-                </div>
-                <div class="col l8">
-                  <h4 class="article-title" style="color: dimgray">Agnostic serverless functions using Kubeless</h4>
-                  <h5 class="article-description" style="color: dimgray">
-                    How we stop depending on a particular cloud provider to write and deploy our serverless functions.
+                  <h4 class="article-title" css="color: ${post.textColor}" >${post.textTitle}</h4>
+                  <h5 class="article-description" css="color: ${post.textColor}">
+                    ${post.textDescription}
                   </h5>
                   <div class="button-row" style="text-align:right">
-                    <a  href="https://medium.com/@darguelles.rojas91/agnostic-serverless-functions-using-kubeless-3e0198c123eb/"
-                        target="_blank" md-button="flat: true;" class="primary">Read the article</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <img src="${tracingPostImage}" style="filter: blur(50px);"/>
-            <div class="caption left-align">
-              <div class="row">
-                <div class="col l4">
-                  <img src="./../../static/icons/medium-icon.png"/>
-                </div>
-                <div class="col l8">
-                  <h4 class="article-title">How tracing has become our key factor for fast error detection</h4>
-                  <h5 class="article-description">
-                    Jaeger implementation for our distributed services. One annotation will trace everything you need.
-                  </h5>
-                  <div class="button-row" style="text-align:right">
-                    <a  href="https://medium.com/quintoandar-tech-blog/how-tracing-has-become-our-key-factor-for-fast-error-detection-960485178306/"
-                        target="_blank" md-button="flat: true;" class="primary">Read the article</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <img src="${coronavirusArticleImage}" style="filter: blur(50px);"/>
-            <div class="caption left-align">
-              <div class="row">
-                <div class="col l4">
-                  <img src="${mediumImage}"/>
-                </div>
-                <div class="col l8">
-                  <h4 class="article-title" style="color: dimgray">Coronavirus: The Hammer and the Dance</h4>
-                  <h5 class="article-description" style="color: dimgray">
-                    Spanish translation from Tomas Pueyo's article about current infection statistics and how we could fight
-                    against this invisible enemy.
-                  </h5>
-                  <div class="button-row" style="text-align:right">
-                    <a  href="https://medium.com/@darguelles.rojas91/coronavirus-the-hammer-and-the-dance-8ac077271a01/"
-                        target="_blank" md-button="flat: true;" class="primary">Read the article</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </li>
-          <li>
-            <img src="${feignArticle}" style="filter: blur(50px);"/>
-            <div class="caption left-align">
-              <div class="row">
-                <div class="col l4">
-                  <img src="${mediumImage}"/>
-                </div>
-                <div class="col l8">
-                  <h4 class="article-title">Feign: Resilience and scalability for your rest clients</h4>
-                  <h5 class="article-description">
-                    Step by step guide about how to implement synchronous API calls using fallback/retry patterns to
-                    improve resilience and fast failure recovery.
-                  </h5>
-                  <div class="button-row" style="text-align:right">
-                    <a href="https://medium.com/@darguelles.rojas91/amazing-rest-clients-with-mr-feign-6195d5499a38/"
-                       target="_blank" md-button="flat: true;" class="primary">Read the article</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <img src="${onionArticle}" style="filter: blur(50px);"/>
-            <div class="caption left-align">
-              <div class="row">
-                <div class="col l4">
-                  <img src="${mediumImage}"/>
-                </div>
-                <div class="col l8">
-                  <h4 class="article-title">Rethinking microservices: Process, rules, and scalability</h4>
-                  <h5 class="article-description">
-                    Explore an alternative way to develop micro-services, decoupling core services from application
-                    layer, improving scalability and resilience.
-                  </h5>
-                  <div class="button-row" style="text-align:right">
-                    <a href="https://medium.com/quintoandar-tech-blog/rethinking-microservices-process-rules-and-scalability-fd959b4e2ea/"
-                       target="_blank" md-button="flat: true;" class="primary">Read the article</a>
+                    <a  href="${post.buttonUrl}" target="_blank" md-button="flat: true;" class="primary">${post.buttonText}</a>
                   </div>
                 </div>
               </div>
             </div>
           </li>
         </md-slider>
+
       </md-card>
     </div>
   </div>
