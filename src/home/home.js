@@ -4,6 +4,7 @@ export class Home {
     this.message = 'success';
     this.imageLink = 'static/images/me.png';
     this.horizontal = true;
+    this.spanCaption = 'Cibersecurity';
   }
 
   attached() {
