@@ -1,5 +1,10 @@
 {
   "headerLabel": "Diego A. Rojas",
+  "primaryColor": "#3068ad",
+  "secondaryColor": "#26a69a",
+  "errorColor": "#f44336",
+  "successColor": "#4caf50",
+  "linkColor": "#039be5",
   "sections": [
     {
       "id": "home",

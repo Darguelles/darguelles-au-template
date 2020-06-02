@@ -8,8 +8,9 @@
   <require from="./styles/styles.scss"></require>
   <require from="./styles/footer.scss"></require>
 
-  <md-colors primary-color="#3068ad" secondary-color="#26a69a" error-color="#f44336"
-             success-color="#4caf50" link-color="#039be5"></md-colors>
+  <md-colors primary-color="#3068ad" secondary-color="${profile.secondaryColor}"
+             error-color="${profile.errorColor}"
+             success-color="${profile.successColor}" link-color="${profile.linkColor}"></md-colors>
   <md-navbar>
 
     <div class="container-centered ">

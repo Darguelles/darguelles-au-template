@@ -1,5 +1,4 @@
 export class App {
-
   async attached() {
     this.profile = await fetch('profile.json')
       .then(response => response.json());
