@@ -57,9 +57,7 @@
     "opn": "^5.4.0",
     "webpack-bundle-analyzer": "^3.0.4"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "scripts": {
     "build": "au build",
     "start": "au run"
