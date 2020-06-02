@@ -2,11 +2,7 @@
  [![Build status](https://ci.appveyor.com/api/projects/status/75eiommx0llt3sgd?svg=true)](https://ci.appveyor.com/project/declandewet/common-tags) 
 # Presentation Template
 
-<p align="center">
-  <br>
-   <img src="https://drive.google.com/file/d/1JjDVGDeQKnXWPe6DmRdhP-u8WOsEUl7C/view?usp=sharing" alt="Gif showing project preview" title="GIF" />
-  <br>
-</p>
+**Demo:** https://diego-arguelles.herokuapp.com/
 
 Aurelia based project to create a web application from a json file.
 
