@@ -19,7 +19,7 @@ export class Blog {
     if (window.screen.width < 700) {
       this.horizontal = false;
       this.bookImage = 'https://images-na.ssl-images-amazon.com/images/I/71gDPtwGRTL.jpg'
-      this.mediumImage = 'https://cdn.dribbble.com/users/314298/screenshots/3796877/medium-dribbble.png'
+      // this.mediumImage = 'https://cdn.dribbble.com/users/314298/screenshots/3796877/medium-dribbble.png'
     }
   }
 }
