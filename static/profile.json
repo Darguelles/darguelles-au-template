@@ -1,0 +1,68 @@
+{
+  "headerLabel": "Diego A. Rojas",
+  "sections": [
+    {
+      "id": "home",
+      "name": "Home",
+      "cardType": "imageAndText",
+      "showNav": false,
+      "metadata": {
+        "imageUrl": "../images/diego.png",
+        "cardTitle": "",
+        "textTitle": "SRE @ QuintoAndar",
+        "textParagraphs": [
+          "I'm Diego Rojas, be welcome!. Peruvian, 28 years old, code, rock and dog lover. Currently located in Sao Paulo, with heart located in Peru and mind in the stars. Passionate for technology, i consider learning and teaching are two complementary parts of the same coin. Good team player."
+        ],
+        "tags": [
+          {
+            "title": "MBA",
+            "captionProperty": "Cybersecurity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "cardType": "carouselAndText",
+      "showNav": true,
+      "metadata": {
+        "carouselImages": [
+          "https://cdn-images-1.medium.com/max/1600/0*gCwigzFAYcBj_yDi",
+          "https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/a3840b1f-8bcd-4f75-b843-eedcb449408e/Image/0a36b9f8f0ee65511e0ed773d94c1464/oracle_certification_badge_oc_associate.png",
+          "https://fernandofranzini.files.wordpress.com/2018/02/badge.png?w=788",
+          "https://images.youracclaim.com/images/6c9b2a4b-91d5-4093-919a-7eb81cfe74ba/ITIL_Foundation.png",
+          "https://www.exin.com/sites/default/files/2018-11/EXIN_Badge_Program_DevOps.png"
+        ],
+        "cardTitle": "Professional",
+        "textTitle": "",
+        "textParagraphs": [
+          "<b>Not only focused on technology.</b> I had the luck to work with multidisciplinary teams\n              learning best practices about each area in the software development process, since the product idea,\n              discovery strategies, coding, test and deploy in production. <i>Feedback is the main tool to build better\n                products</i>, then, the cycle starts again.",
+          "The last 2 years i put more effort understanding how the systems can scale in a fast, reliable and\n              secure way. It allowed me to work as an SRE with strong product background, targeting the real needs of\n              the engineering team and implementing a Cybersecurity strategy for the infrastructure."
+        ],
+        "badges": [
+          {
+            "title": "Java",
+            "imageUrl": "./icons/java-icon.png"
+          },
+          {
+            "title": "Golang",
+            "imageUrl": "./icons/golang-color-icon.png"
+          },
+          {
+            "title": "Docker",
+            "imageUrl": "./icons/docker-icon.png"
+          },
+          {
+            "title": "GCP",
+            "imageUrl": "./icons/gcp-icon.png"
+          },
+          {
+            "title": "Java",
+            "imageUrl": "./icons/aws-icon.png"
+          }
+        ]
+      }
+    }
+  ]
+}

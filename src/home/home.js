@@ -2,7 +2,6 @@ export class Home {
 
   constructor() {
     this.message = 'success';
-    this.imageLink = 'static/images/me.png';
     this.horizontal = true;
     this.spanCaption = 'Cibersecurity';
   }

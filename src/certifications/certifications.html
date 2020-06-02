@@ -3,56 +3,32 @@
 
   <div class="row">
     <div class="col s12 m12">
-      <md-card title="Professional" class="col s12 m12">
+      <md-card title="${data.cardTitle}" class="col s12 m12">
         <div class="row">
           <div class="col l6 s12 m8" >
             <br/>
-            <p>
-              <b>Not only focused on technology.</b> I had the luck to work with multidisciplinary teams
-              learning best practices about each area in the software development process, since the product idea,
-              discovery strategies, coding, test and deploy in production. <i>Feedback is the main tool to build better
-                products</i>, then, the cycle starts again.
-            </p>
-            <br>
-            <p>
-              The last 2 years i put more effort understanding how the systems can scale in a fast, reliable and
-              secure way. It allowed me to work as an SRE with strong product background, targeting the real needs of
-              the engineering team and implementing a Cybersecurity strategy for the infrastructure.
-            </p>
-
+            <div repeat.for="paragraph of data.textParagraphs">
+              <p>
+                ${paragraph}
+              </p>
+              <br>
+            </div>
             <div style="bottom: 0; position: absolute; margin-bottom: 2em;">
-              <md-chip has-close="false">
-                <img src="./../../static/icons/java-icon.png" alt="Java"> Java
-              </md-chip>
-              <md-chip has-close="false">
-                <img src="./../../static/icons/golang-color-icon.png" alt="Golang"> Golang
-              </md-chip>
-              <md-chip has-close="false">
-                <img src="./../../static/icons/docker-icon.png" alt="Docker"> Docker
-              </md-chip>
-              <md-chip has-close="false">
-                <img src="./../../static/icons/gcp-icon.png" alt="Google Cloud"> Google Cloud
-              </md-chip>
-              <md-chip has-close="false">
-                <img src="./../../static/icons/aws-icon.png" alt="AWS"> AWS
+              <md-chip has-close="false" repeat.for="badge of data.badges" >
+                <img src="${badge.imageUrl}" alt="${badge.title}"> ${badge.title}
               </md-chip>
             </div>
-
           </div>
 
           <div class="col s12 m6">
             <md-carousel>
-              <md-carousel-item href="#one!" image="https://cdn-images-1.medium.com/max/1600/0*gCwigzFAYcBj_yDi"></md-carousel-item>
-              <md-carousel-item href="#two!" image="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/a3840b1f-8bcd-4f75-b843-eedcb449408e/Image/0a36b9f8f0ee65511e0ed773d94c1464/oracle_certification_badge_oc_associate.png"></md-carousel-item>
-              <md-carousel-item href="#three!" image="https://fernandofranzini.files.wordpress.com/2018/02/badge.png?w=788"></md-carousel-item>
-              <md-carousel-item href="#four!" image="https://images.youracclaim.com/images/6c9b2a4b-91d5-4093-919a-7eb81cfe74ba/ITIL_Foundation.png"></md-carousel-item>
-              <md-carousel-item href="#five!" image="https://www.exin.com/sites/default/files/2018-11/EXIN_Badge_Program_DevOps.png"></md-carousel-item>
+              <md-carousel-item repeat.for="image of data.carouselImages" href="#one!" image="${image}">
+              </md-carousel-item>
             </md-carousel>
           </div>
         </div>
       </md-card>
     </div>
   </div>
-
 
 </template>

@@ -14,26 +14,31 @@
 
     <div class="container-centered ">
       <a href="#/" class="brand-logo">
-        <span>Diego A. Rojas</span>
+        <span>${profile.headerLabel}</span>
       </a>
       <ul class="hide-on-med-and-down right">
-        <li md-waves><a href="#professional" >Professional</a></li>
+        <li repeat.for="section of profile.sections" md-waves>
+          <a href="#${section.id}" >${section.showNav ? section.name : ''}</a>
+        </li>
+        <!--
         <li md-waves><a href="#publications">Publications</a></li>
         <li md-waves><a href="#hobbies">Hobbies</a></li>
         <li md-waves><a href="#collaborations">Collaborations</a></li>
+        -->
       </ul>
     </div>
 
   </md-navbar>
 
   <div class="container-centered ">
-
-    <home></home>
-    <certifications id="professional" ></certifications>
+    <div repeat.for="section of profile.sections">
+      <compose view-model="${selectViewModel(section.cardType)}" id="${section.id}" model.bind="section.metadata" ></compose>
+    </div>
+    <!--
     <blog id="publications"></blog>
     <hobbies id="hobbies"></hobbies>
     <collaboration id="collaborations"></collaboration>
-
+    -->
   </div>
 
   <div>
