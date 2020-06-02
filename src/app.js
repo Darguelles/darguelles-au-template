@@ -12,6 +12,8 @@ export class App {
       return './certifications/certifications';
     } else if (cardType === 'sliderBlog') {
       return './blog/blog';
+    } else if (cardType === 'textWithSimpleImage') {
+      return './hobbies/hobbies';
     }
   }
 }

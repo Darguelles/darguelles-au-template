@@ -125,6 +125,22 @@
           }
         ]
       }
+    },
+    {
+      "id": "hobbies",
+      "name": "Hobbies",
+      "cardType": "textWithSimpleImage",
+      "showNav": true,
+      "metadata": {
+        "imageUrl": "./images/hobbies.png",
+        "cardTitle": "Hobbies",
+        "textTitle": "",
+        "textParagraphs": [
+          "Not all in my life is work and study. I like do distribute my time with my second passion too: Music, more specific, play guitar. I'm a 80's, 90's rock lover, follower of great bands such Guns N Roses, Aerosmith, Led Zeppelin, Audioslave, and maybe the list wont finish soon...",
+          "I love shooter games, Battlefield is my favorite one. Call of Duty mobile is a great option too. Add me as @PerriPerri",
+          "Big UFC fan."
+        ]
+      }
     }
   ]
 }
