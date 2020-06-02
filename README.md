@@ -1,4 +1,13 @@
+[![npm license](https://img.shields.io/npm/l/common-tags.svg?style=flat-square)](https://github.com/declandewet/common-tags/blob/master/license.md) 
+ [![Build status](https://ci.appveyor.com/api/projects/status/75eiommx0llt3sgd?svg=true)](https://ci.appveyor.com/project/declandewet/common-tags) 
 # Presentation Template
+
+<p align="center">
+  <br>
+   <img src="https://drive.google.com/file/d/1JjDVGDeQKnXWPe6DmRdhP-u8WOsEUl7C/view?usp=sharing" alt="Gif showing project preview" title="GIF" />
+  <br>
+</p>
+
 Aurelia based project to create a web application from a json file.
 
 This project is a hands-on example about how Aurelia framework works and how easy is to create a web application
