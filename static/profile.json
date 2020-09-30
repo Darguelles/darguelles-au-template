@@ -1,6 +1,6 @@
 {
   "headerLabel": "Diego A. Rojas",
-  "primaryColor": "#3068ad",
+  "primaryColor": "green",
   "secondaryColor": "#26a69a",
   "errorColor": "#f44336",
   "successColor": "#4caf50",
@@ -16,7 +16,7 @@
         "cardTitle": "",
         "textTitle": "SRE @ QuintoAndar",
         "textParagraphs": [
-          "I'm Diego Rojas, be welcome!. Peruvian, 28 years old, code, rock and dog lover. Currently located in Sao Paulo, with heart located in Peru and mind in the stars. Passionate for technology, i consider learning and teaching are two complementary parts of the same coin. Good team player."
+          "Welcome, I'm Diego Rojas!. Peruvian, 28 years old, code, rock and dog lover. Currently located in Sao Paulo, with heart located in Peru and mind in the stars. Passionate for technology, i consider learning and teaching are two complementary parts of the same coin. Good team player."
         ],
         "tags": [
           {
@@ -41,7 +41,7 @@
         "cardTitle": "Professional",
         "textTitle": "",
         "textParagraphs": [
-          "<b>Not only focused on technology.</b> I had the luck to work with multidisciplinary teams\n              learning best practices about each area in the software development process, since the product idea,\n              discovery strategies, coding, test and deploy in production. <i>Feedback is the main tool to build better\n                products</i>, then, the cycle starts again.",
+          "Not only focused on technology. I had the luck to work with multidisciplinary teams\n              learning best practices about each area in the software development process, since the product idea,\n              discovery strategies, coding, test and deploy in production. Feedback is the main tool to build better\n                products, then, the cycle starts again.",
           "The last 2 years i put more effort understanding how the systems can scale in a fast, reliable and\n              secure way. It allowed me to work as an SRE with strong product background, targeting the real needs of\n              the engineering team and implementing a Cybersecurity strategy for the infrastructure."
         ],
         "badges": [

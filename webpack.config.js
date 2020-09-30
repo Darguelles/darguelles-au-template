@@ -73,18 +73,25 @@ module.exports = ({ production, server, extractCss, coverage, analyze, karma } =
         // You can insert additional cacheGroup entries here if you want to split out specific modules
         // This is required in order to split out vendor css from the app css when using --extractCss
         // For example to separate font-awesome and bootstrap:
-        // fontawesome: { // separates font-awesome css from the app css (font-awesome is only css/fonts)
-        //   name: 'vendor.font-awesome',
-        //   test:  /[\\/]node_modules[\\/]font-awesome[\\/]/,
-        //   priority: 100,
-        //   enforce: true
-        // },
-        // bootstrap: { // separates bootstrap js from vendors and also bootstrap css from app css
-        //   name: 'vendor.font-awesome',
-        //   test:  /[\\/]node_modules[\\/]bootstrap[\\/]/,
-        //   priority: 90,
-        //   enforce: true
-        // },
+        fontawesome: { // separates font-awesome css from the app css (font-awesome is only css/fonts)
+          name: 'vendor.font-awesome',
+          test: /[\\/]node_modules[\\/]font-awesome[\\/]/,
+          priority: 100,
+          enforce: true
+        },
+        bootstrap: { // separates bootstrap js from vendors and also bootstrap css from app css
+          name: 'vendor.font-awesome',
+          test: /[\\/]node_modules[\\/]bootstrap[\\/]/,
+          priority: 90,
+          enforce: true
+        },
+        aureliaFetchClient: {
+          test: /[\\/]node_modules[\\/]aurelia-fetch-client[\\/]/,
+          name: "vendor.aurelia-fetch-client",
+          chunks: 'async',
+          enforce: true,
+          priority: 29
+        },
 
         // This is the HTTP/2 optimised cacheGroup configuration
         // generic 'initial/sync' vendor node module splits: separates out larger modules
